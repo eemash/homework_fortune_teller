@@ -29,5 +29,5 @@ get("/zodiacs/pisces",      { :controller => "zodiacs", :action => "fish" })
   # =======================
 
    get("/signs/:the_sign",         { :controller => "zodiacs", :action => "sign" })
-  # get("/creatures/:the_creature", { :controller => "zodiacs", :action => "creature" })
+  get("/creatures/:the_creature", { :controller => "zodiacs", :action => "creature" })
 end
